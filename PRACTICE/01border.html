@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        p.double {
+            border: double cornflowerblue 5PX;
+            background-color: chartreuse;
+            height: 100PX;
+            width: 100PX;
+            padding: 30px;
+        }
+
+        p.dotted {
+
+            border: dotted coral 5px;
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            padding: 30px;
+        }
+
+        p.radius {
+            border: cornflowerblue 5px;
+            background-color: crimson;
+            height: 100px;
+            width: 100px;
+            padding: 30px;
+            border-radius: 10px;
+
+        }
+
+        p.bottom {
+            border-bottom: coral 20px solid;
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            padding: 30px
+        }
+
+        p.color {
+            border: double 5px;
+            border-color: violet;
+            background-color: rgb(6, 5, 66);
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            color: beige;
+        }
+
+        p.left {
+            border-left: 3px dashed;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            background-color: blue;
+        }
+
+        p.right {
+            border-right: 3px dashed;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            background-color: chocolate;
+        }
+
+        p.width {
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            background-color: blueviolet;
+            border-width: 5px ;
+            border-style:dotted;
+            border-color: darkgreen;
+
+        }
+
+        p.border-top-left-radius {
+            border-top-left-radius: 50%;
+            border: black 5px double;
+            background-color: brown;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+        }
+
+        P.border-top-right-radius {
+            border-top-right-radius: 50%;
+            border: aquamarine 5px dotted;
+            background-color: coral;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+        }
+
+        p.border-bottom-left-radius {
+            border-bottom-left-radius: 50%;
+            background-color: brown;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            border: cyan 5px dashed;
+        }
+
+        p.border-bottom-right-radius {
+            border-bottom-right-radius: 50%;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            border: cornflowerblue 5px double;
+            background-color: crimson;
+        }
+
+        p.border-collapse {
+            border-collapse: collapse;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            border: blue double 10px;
+            background-color: brown;
+
+
+
+        }
+
+        p.border-bottom-color {
+            border: black 5px;
+            border-style: solid;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            border-bottom: 5px solid red;
+            background-color: cornflowerblue;
+        }
+
+        p.border-top-color {
+            border: black 5px;
+            border-style: solid;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            border-top: gold solid 5px;
+            background-color: blueviolet;
+
+        }
+
+        p.border-spacing {
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            background-color: rgb(19, 237, 19);
+            border-spacing: unset;
+            border: darkgreen solid;
+        }
+
+        p.border-left-color {
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            border: darkblue solid 5px;
+            background-color: brown;
+            border-style: solid;
+            border-left-color: aquamarine;
+
+        }
+
+        p.border-right-color {
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            border: darkblue solid 5px;
+            background-color: azure;
+            border-style: solid;
+            border-right-color: violet
+        }
+
+        p.border-bottom-width {
+            border-bottom-width: ;
+            height: 100px;
+            width: 100px;
+            padding: 40px;
+            border: darkblue dotted 5px;
+            background-color: bisque
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <P class="double"> double border</P>
+            </td>
+            <td>
+                <p class="dotted">Dotted border</p>
+            </td>
+            <td>
+                <p class="radius">radius border</p>
+            </td>
+            <td>
+                <p class="bottom">bottom border</p>
+            </td>
+            <td>
+                <p class="color">color border</p>
+            </td>
+            <td>
+                <p class="left"> left border</p>
+            </td>
+            <td>
+                <p class="right">right border</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="width"> width border</p>
+            </td>
+            <td>
+                <p class="border-top-left-radius">border-top-left-radius</p>
+            </td>
+            <td>
+                <p class="border-top-right-radius">border-top-right-radius</p>
+            </td>
+            <td>
+                <p class="border-bottom-left-radius">border-bottom-left-radius</p>
+            </td>
+            <td>
+                <p class="border-bottom-right-radius">border-bottom-right-radius</p>
+            </td>
+            <td>
+                <p class="border-collapse"> border-collapse </p>
+            </td>
+            <td>
+                <p class="border-bottom-color">border-bottom-color</p>
+            </td> </tr>
+             <tr><td>
+                <p class="border-top-color">border-top-color</p>
+            </td>
+            <td>
+                <p class="border-spacing">border-spacing</p>
+            </td>
+            <td>
+                <p class="border-left-color">border-left-color</p>
+            </td>
+            <td>
+                <p class="border-right-color">border-right-color</p>
+            </td>
+            <td>
+                <p class="border-bottom-width ">border-bottom-width </p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
