@@ -1,0 +1,122 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.pr{
+
+background: url(../IMAGE/IMAGE\ 1.webp);
+height: 600px;
+background-repeat: no-repeat;
+background-size: contain;
+background-size: cover;
+}
+
+.in{
+
+    height: 100px;
+    border: 1px solid red;
+    position: relative;
+
+}
+.fa-bars
+{
+    margin: 40px;
+    font-size: 20px;
+
+}
+.so{
+    padding: 15px;
+    margin-left: 60%;
+    border-radius: 50px;
+    font-size: 18px;
+
+}
+.ra{
+    padding: 15px;
+    margin-left: 3%;
+    top: 25px;
+    border-radius: 50px;
+    font-size: 18px; 
+    background: black;
+    color: white;
+    position: absolute;
+}
+.th{
+    padding-top:100px ;
+    font-size: 50px;
+
+  }
+    
+.ya{
+    position: relative;
+}
+.princy{
+    height: 40px;
+    width: 30%;
+} 
+.select{
+    height: 40px;
+}
+.button{
+    background-color: black;
+    color: aliceblue;
+    height: 40px;
+width: 7%;
+}
+.div{
+    padding: 40px;
+    padding-top: 20px;
+}
+.sing{
+    padding-top: 20px;
+}
+.photo{
+    border: 1px solid;
+    height: 400px;
+}
+
+.pic,.image{  
+      border: 1px solid;
+    height: 400px;}
+
+.ddd{
+height: 600px;
+width: 100%;
+border: 1px solid;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.ppp{
+    width: 90%;
+height: 300px;
+padding-left: 10px;
+
+}
+.hh{
+    display: inline;
+}
+.a{
+    color: black;
+    margin-left: 10px;
+}
+.aaa{
+
+    margin-left: 900px;
+    color: black;
+}
+.kkk{
+    padding: 40px;
+}
+.nnn{ 
+margin-left: 40px;
+}
+.ccc{
+    list-style-type: none;
+}
+
+.fff{
+    display: flex;
+}
