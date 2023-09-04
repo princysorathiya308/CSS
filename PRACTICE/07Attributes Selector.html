@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes Selector</title>
+    <style>
+        div[ class*="pri"]{
+            width: 200px;
+            height: 200px;
+            margin: 10px ;
+            border: 5px double mediumorchid;
+        }
+        .pri-1{
+            background-color: aqua;
+        }
+        .pri-2{
+            background-color: blue;
+        }
+
+        .pri-3{
+            background-color: cadetblue;
+        }
+        .pri-4{
+            background-color: rgb(203, 206, 21);
+        }
+    </style>
+</head>
+<body>
+    <h1>Attributes Selector</h1>
+    <div class="pri-1">Box1</div>
+    <div class="pri-2">Box2</div>
+    <div class="pri-3">Box3</div>
+    <div class="pri-4">Box4</div>
+</body>
+</html>

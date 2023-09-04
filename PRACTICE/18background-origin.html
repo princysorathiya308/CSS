@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background-origin</title>
+    <style>
+        .div {
+            height: 300px;
+            margin: 10px 0px;
+        }
+
+        .background-origin {
+            border: 10px double purple;
+            background-image: url(../IMAGE/backgroundimages.jpg);
+                /* background-repeat: no-repeat; */
+            background-origin: border-box;
+            background-origin: padding-box;
+            background-origin: content-box;
+            padding: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>background-origin</h1>
+    <div class="background-origin"></div>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+</body>
+
+</html>

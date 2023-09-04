@@ -47,6 +47,9 @@ background-size: cover;
     font-size: 50px;
 
   }
+  body{
+    overflow-x: hidden;
+  }
     
 .ya{
     position: relative;
@@ -109,14 +112,37 @@ padding-left: 10px;
 }
 .kkk{
     padding: 40px;
+    border: 1px solid;
 }
 .nnn{ 
 margin-left: 40px;
 }
 .ccc{
     list-style-type: none;
+    width: 100%;
+    padding-right: 200px;
+    
 }
 
 .fff{
     display: flex;
+    border: 1px solid black;
+}
+
+.eee{
+    display: flex;
+    border: 1px solid black;
+}
+
+.iii{
+    margin-left: 1100px;
+    color: black;
+        
+}
+.ooo{
+    border: 1px solid black;
+    display: flex;
+}
+.main{
+    border: 1px solid black;
 }
