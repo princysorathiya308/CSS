@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-brands {
+    padding: 10px;
+}
+
+.main {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.ul {
+    display: flex;
+}
+
+.li {
+    width: 70%;
+    list-style-type: none;
+    padding: 30px;
+}
+
+.button {
+    color: white;
+    background-color: green;
+    height: 40px;
+}
+
+.ppp {
+    margin-left: 30px;
+    
+}
+.ooo{
+    height: 30px;
+
+}
+.icon{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+}
