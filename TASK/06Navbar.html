@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+
+        nav {
+
+            height: 90px;
+            /* border: 7px solid rgb(6, 0, 6); */
+            background-color: rgb(131, 121, 127);
+            width: 100%;
+    padding: 15px;
+}
+
+        ul {
+            margin: 20px;
+        }
+
+        li {
+            display: inline;
+            margin: 0 5px;
+            padding: 75px;
+        }
+
+        a {
+            color: rgb(77, 213, 197);
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+
+        .logo,
+        a:hover {
+            background-color: violet;
+            transition: .5s;
+        }
+        @media (max-width: 576px) { ... }
+
+        
+    </style>
+</head>
+
+<body>
+    <nav class="princy">
+        <!-- <label class="Logo">DesingX</label> -->
+        <ul>
+            <li><a class="Logo" href="#"><i class="fa-brands fa-apple fa-2xl" style="color: rgb(77, 213, 197);"></i></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contat Us</a></li>
+        </ul>
+    </nav>
+    <div>
+        <input type="checkbox">
+    </div>
+</body>
+
+</html>
