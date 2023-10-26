@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .main {
+            height: 570px;
+            width: 100%;
+            background: black;
+            position: relative;
+            overflow: hidden;
+            background: url(../IMAGe/55.jpeg) no-repeat;
+            background-size: cover;
+
+        }
+
+        .ball9 {
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            position: absolute;
+            animation: ballann9 5s infinite linear;
+
+        }
+
+
+        @keyframes ballann9 {
+            0% {
+                top: 50%;
+                left: 0%;
+                background: url(../IMAGE/princy4.JPG);
+                background-size: cover;
+
+            }
+
+            25% {
+                top: 25%;
+                left: 25%;
+            }
+
+            50% {
+                top: 0%;
+                left: 50%;
+                background: url(../IMAGE/princy3.JPG);
+                background-size: cover;
+            }
+
+            75% {
+                top: 75%;
+                left: 75%;
+                background: url(../IMAGE/princy1.JPG);
+                background-size: cover;
+            }
+
+            100% {
+                top: 50%;
+                left: 0%;
+                background: url(../IMAGE/princy6.JPG);
+                background-size: cover;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="ball9"></div>
+
+    </div>
+</body>
+
+</html>
